@@ -199,6 +199,6 @@ const AllRooms = () => {
 
     </div>
   )
-}
+} 
 
 export default AllRooms
