@@ -2,7 +2,7 @@
  
 Bookify is a responsive hotel booking web app where users can explore featured destinations, browse rooms, view room details with an image gallery, and manage their bookings. Authentication is handled with Clerk.
  
-**Live Demo:** https://your-bookify-link.vercel.app
+**Live Demo:** [https://your-bookify-link.vercel.app](https://bookify-psi-ten.vercel.app/)
  
 ## Features
  
