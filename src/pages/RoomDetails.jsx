@@ -2,6 +2,10 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { assets, facilityIcons, roomCommonData, roomsDummyData } from '../assets/assets'
 import StarRating from '../components/StarRating'
+import hostAvatar from '../assets/hostavatar.svg'
+ 
+
+
 const RoomDetails = () => {
 
     const { id } = useParams()
@@ -134,7 +138,8 @@ const RoomDetails = () => {
             {/**Hosted By */}
             <div className='flex flex-col items-start gap-4'>
                 <div className='flex gap-4'>
-                    <img src={room.hotel.owner.image} alt="Host" className='h-14 w-14 md:h-[72px] md:w-[72px] rounded-full' />
+                    <img src="https://images.unsplash.com/photo-1781888681811-332968760c2a?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Host" 
+                    className='h-14 w-14 md:h-[72px] md:w-[72px] rounded-full object-center' />
                 </div>
                 <div>
                     <p className='text-lg md:text-xl'>Hosted By {room.hotel.name}</p>

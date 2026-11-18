@@ -6,7 +6,7 @@ import StarRating from './StarRating'
 const Testimonials = () => {
   return (
     <div className=' flex flex-col items-center px-6 md:px-16 lg:px-24 bg-slate-50 pt-20 pb-30'>
-      <Title title="What our guest say" subtitle="Discover why travellers consistently choose QuickStay for their exclusive and luxurious accomodations around the world."/>
+      <Title title="What our guest say" subtitle="Discover why travellers consistently choose Bookify for their exclusive and luxurious accomodations around the world."/>
 
 
             <div className="flex flex-wrap items-center justify-center gap-6 mt-20 mb-10">
